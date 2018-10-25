@@ -24,7 +24,7 @@ lists other suboptions (TBB, DAAL, MPI, ...)
 
 ```sh
 ## all products:
-#wget https://apt.repos.intel.com/setup/intelproducts.list -O /etc/apt/sources.list.d/intelproducts.list
+wget https://apt.repos.intel.com/setup/intelproducts.list -O /etc/apt/sources.list.d/intelproducts.list
 
 ## just MKL
 sh -c 'echo deb https://apt.repos.intel.com/mkl all main > /etc/apt/sources.list.d/intel-mkl.list'
